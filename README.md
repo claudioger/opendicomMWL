@@ -1,6 +1,6 @@
-#opendicomMWL - (dcm4chee-arc-ligth 5.6.0 - MySQL)
+# opendicomMWL - (dcm4chee-arc-ligth 5.6.0 - MySQL)
 
-##Create virtual environment
+## Create virtual environment
 
 virtualenv --python=python3.6 --no-site-packages env
 
@@ -8,7 +8,7 @@ Install requirement
 
 pip install -r requirements.txt
 
-##Parameters
+## Parameters
 - AETitle
 - Port
 - User DB
@@ -17,5 +17,5 @@ pip install -r requirements.txt
 - Name DB
 - debug (1 = True, 0 = False)
 
-##Example 
+## Example 
 - python opendicomMWL/main.py AET 11112 USER_DB PASSWORD_DB 0.0.0.0 NAME_DB 1
